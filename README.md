@@ -1,5 +1,11 @@
 # Frontend Mentor - Product Preview Card Component Solution
 
+![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
+![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46dae306-cc16-4581-b652-70dd09f03e65/deploy-status)](https://app.netlify.com/sites/product-preview-card-compnent/deploys)
+
 This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -34,50 +40,26 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://product-preview-card-compnent.netlify.app/)
 
 ## My Process
 
 ### Built With
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white) Semantic HTML5 markup
+- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white) CSS custom properties
+- ![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white) Flexbox
 - Mobile-first workflow
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) - Font used for headings and buttons
-- [Fraunces](https://fonts.google.com/specimen/Fraunces) - Font used for product name and price
+- ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-%234285F4.svg?&style=flat&logo=googlefonts&logoColor=white) [Montserrat](https://fonts.google.com/specimen/Montserrat) - Font used for headings and buttons
+- ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-%234285F4.svg?&style=flat&logo=googlefonts&logoColor=white) [Fraunces](https://fonts.google.com/specimen/Fraunces) - Font used for product name and price
 
 ### What I Learned
 
 Working on this project, I enhanced my skills in:
 
-- Using CSS Flexbox to create a responsive layout that adjusts to different screen sizes.
-- Implementing CSS Grid for complex layouts and aligning items.
+- ![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white) Using CSS Flexbox to create a responsive layout that adjusts to different screen sizes.
 - Managing font styles and incorporating custom fonts into a project.
 - Ensuring accessibility by adding meaningful aria-labels to interactive elements.
-
-Here's an example of CSS I’m particularly proud of:
-
-```css
-button {
-    background-color: var(--dark-cyan);
-    color: var(--white);
-    border: none;
-    border-radius: 10px;
-    padding: 15px 60px;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-weight: 700;
-    top: 105px;
-    position: relative;
-}
-```
 
 ### Continued Development
 
@@ -99,9 +81,9 @@ For style guidelines, check out my [Style Guide](Style-Guide.md).
 
 ## Author
 
-- Frontend Mentor - [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
-- LinkedIn - [@Yashi-Singh](www.linkedin.com/in/yashi-singh-b4143a246)
+- Frontend Mentor - ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
+- LinkedIn - ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white) [@Yashi-Singh](www.linkedin.com/in/yashi-singh-b4143a246)
 
 ## Acknowledgments
 
-Thank you to the Frontend Mentor community for the challenge and the inspiration. Special thanks to [@frontendmentor](https://www.frontendmentor.io/) for creating such valuable resources to improve web development skills.
+Thank you to the Frontend Mentor community for the challenge and the inspiration. Special thanks to ![@frontendmentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@frontendmentor](https://www.frontendmentor.io/) for creating such valuable resources to improve web development skills.

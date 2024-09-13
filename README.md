@@ -4,6 +4,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
 ![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white)
+![GitHub last commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Product-Preview-Card-Component)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46dae306-cc16-4581-b652-70dd09f03e65/deploy-status)](https://app.netlify.com/sites/product-preview-card-compnent/deploys)
 
 This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.

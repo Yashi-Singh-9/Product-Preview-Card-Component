@@ -82,7 +82,7 @@ For style guidelines, check out my [Style Guide](Style-Guide.md).
 
 ## Author
 
-- Frontend Mentor - ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@Yashi-Singh-1](https://www.frontendmentor.io/profile/Yashi-Singh-1)
+- Frontend Mentor - ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
 - LinkedIn - ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white) [@Yashi-Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
 
 ## Acknowledgments

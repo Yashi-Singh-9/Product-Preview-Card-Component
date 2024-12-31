@@ -2,27 +2,30 @@
 
 ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
-![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-%23CC6699.svg?&style=flat&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?&style=flat&logo=bootstrap&logoColor=white)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/product-preview-card-component)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46dae306-cc16-4581-b652-70dd09f03e65/deploy-status)](https://app.netlify.com/sites/product-preview-card-compnent/deploys)
 
-This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Product Preview Card Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help developers improve their coding skills by building realistic projects.
 
-## Table of contents
+---
+
+## Table of Contents
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
+- [Installation and Running](#installation-and-running)
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
-- [Style Guide](#style-guide)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
+---
 
 ## Overview
 
@@ -30,61 +33,140 @@ This is a solution to the [Product Preview Card Component challenge on Frontend 
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- View an **optimized layout** based on their device's screen size.
+- See **hover and focus states** for all interactive elements.
 
-### Screenshot
+### Screenshots
 
-![Product Preview Card Component Desktop Preview](images/Desktop-Preview.png)
+#### Desktop Version
+![Desktop Preview](images/Desktop-Preview.png)
 
-![Product Preview Card Component Mobile Preview](images/Mobile-Preview.png)
+#### Mobile Version
+<img src="images/Mobile-Preview.png" height="750" width="auto">
+
+---
 
 ### Links
 
-- Live Site URL: [Live Demo](https://product-preview-card-compnent.netlify.app/)
+- **Live Site URL**: [Live Demo](https://yashi-singh-9.github.io/Product-Preview-Card-Component/)
+
+---
+
+## Installation and Running
+
+To view and run this project locally, follow the steps below:
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+1. **Node.js and npm** (for SCSS compilation, optional if you're modifying the styles)
+2. A code editor like **VS Code**.
+3. A browser to view the project.
+
+---
+
+### Steps
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/Yashi-Singh-9/Product-Preview-Card-Component.git
+   ```
+
+2. **Navigate into the Project Directory**:
+
+   ```bash
+   cd Product-Preview-Card-Component
+   ```
+
+3. **Install Dependencies (Optional for SCSS Compilation)**:
+
+   If you need to modify or recompile SCSS, install the required dependencies. Run:
+
+   ```bash
+   npm install
+   ```
+
+   Ensure you have `node-sass` installed globally or locally to compile SCSS to CSS.
+
+4. **Compile SCSS (Optional)**:
+
+   If you make changes to the SCSS file, run:
+
+   ```bash
+   npm run scss
+   ```
+
+   This will compile the `styles.scss` file into `styles.css`.
+
+5. **Run the Project**:
+
+   Open the `index.html` file in your browser directly or use a live server extension in VS Code:
+
+   ```bash
+   npx live-server
+   ```
+
+---
 
 ## My Process
 
 ### Built With
 
-- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white) Semantic HTML5 markup
-- ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white) CSS custom properties
-- ![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white) Flexbox
-- Mobile-first workflow
-- ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-%234285F4.svg?&style=flat&logo=googlefonts&logoColor=white) [Montserrat](https://fonts.google.com/specimen/Montserrat) - Font used for headings and buttons
-- ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-%234285F4.svg?&style=flat&logo=googlefonts&logoColor=white) [Fraunces](https://fonts.google.com/specimen/Fraunces) - Font used for product name and price
+- **Semantic HTML5**
+- **SCSS** for styling
+- **Bootstrap 5** for layout and responsive design
+- **CSS Flexbox** for alignment
+- **Mobile-first workflow**
+- **Google Fonts**:  
+  - [Montserrat](https://fonts.google.com/specimen/Montserrat) for headings and buttons  
+  - [Fraunces](https://fonts.google.com/specimen/Fraunces) for product name and price
+
+---
 
 ### What I Learned
 
-Working on this project, I enhanced my skills in:
+Working on this project helped solidify my understanding of:
 
-- ![Flexbox](https://img.shields.io/badge/Flexbox-%23F7DF1E.svg?&style=flat&logo=flexbox&logoColor=white) Using CSS Flexbox to create a responsive layout that adjusts to different screen sizes.
-- Managing font styles and incorporating custom fonts into a project.
-- Ensuring accessibility by adding meaningful aria-labels to interactive elements.
+1. **Responsive Design**:  
+   - Leveraging Bootstrap's grid system and utility classes for responsiveness.
+   - Using the `picture` element to serve different images for desktop and mobile views.
+  
+2. **SCSS**:  
+   - Organized styling using variables for colors, reusable components, and media queries.
+   - Efficient handling of hover effects and transitions.
+
+3. **Accessibility**:  
+   - Adding meaningful alt text to images and aria-labels to interactive elements for better accessibility.
+
+---
 
 ### Continued Development
 
-In future projects, I plan to focus on:
+In future projects, I aim to focus on:
 
-- Improving my knowledge of advanced CSS techniques, such as animations and transitions.
-- Exploring more about responsive design and media queries to handle various screen sizes and orientations.
-- Enhancing my JavaScript skills to add interactivity and dynamic behavior to my components.
+- Mastering **CSS Grid** and advanced SCSS techniques.
+- Incorporating **JavaScript** for interactivity (e.g., animations, user feedback).
+- Exploring more advanced **Bootstrap 5 components** for faster development.
+
+---
 
 ### Useful Resources
 
-- [CSS Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A comprehensive guide to Flexbox.
-- [MDN Web Docs](https://developer.mozilla.org/en-US/) - A valuable resource for HTML, CSS, and JavaScript documentation.
-- [Google Fonts](https://fonts.google.com/) - For selecting and integrating web fonts.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - Comprehensive resource for HTML, CSS, and JavaScript.
+- [CSS-Tricks Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Helpful for building responsive layouts.
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/) - Bootstrap components and utilities.
 
-## Style Guide
-
-For style guidelines, check out my [Style Guide](Style-Guide.md).
+---
 
 ## Author
 
-- Frontend Mentor - ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
-- LinkedIn - ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat&logo=linkedin&logoColor=white) [@Yashi-Singh](https://www.linkedin.com/in/yashi-singh-b4143a246)
+- Frontend Mentor: [@Yashi-Singh-9](https://www.frontendmentor.io/profile/Yashi-Singh-9)
+- LinkedIn: [@Yashi-Singh](https://www.linkedin.com/in/yashi-singh-b4143a246/)
+
+---
 
 ## Acknowledgments
 
-Thank you to the Frontend Mentor community for the challenge and the inspiration. Special thanks to ![@frontendmentor](https://img.shields.io/badge/Frontend%20Mentor-%F0%9F%91%8D-brightgreen) [@frontendmentor](https://www.frontendmentor.io/) for creating such valuable resources to improve web development skills.
+Special thanks to **Frontend Mentor** for providing engaging and meaningful challenges. Also, thanks to the developer community for their helpful resources and inspiration!
